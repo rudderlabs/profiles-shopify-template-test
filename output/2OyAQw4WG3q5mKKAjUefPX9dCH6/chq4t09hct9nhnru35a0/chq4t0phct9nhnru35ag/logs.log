@@ -1,0 +1,4 @@
+INFO	core/project.go:645	default idModel not required for entity user
+
+INFO	core/project.go:645	default idModel not required for entity session
+

@@ -1,0 +1,112 @@
+2023-05-15T10:43:52.098+0530	INFO	migrate/migrate.go:176	Project migrated from version 27 to version 33
+
+2023-05-15T10:43:56.821+0530	ERROR	validate/access.go:27	accessing project 
+Error: failed to read project yaml 
+Error: connection 'shopify_wh' not found
+
+2023-05-15T10:44:30.190+0530	INFO	core/project.go:605	default idModel not required for entity user
+
+2023-05-15T10:44:30.191+0530	INFO	core/project.go:605	default idModel not required for entity session
+
+2023-05-15T10:44:30.192+0530	INFO	validate/access.go:34	Checking warehouse connectivity
+
+2023-05-15T10:44:31.255+0530	INFO	validate/access.go:57	Checking required schema access
+
+2023-05-15T10:44:32.201+0530	INFO	validate/access.go:72	Preparing registry setup
+
+2023-05-15T10:44:33.899+0530	INFO	validate/access.go:78	loading project
+
+2023-05-15T11:19:59.797+0530	INFO	core/project.go:605	default idModel not required for entity user
+
+2023-05-15T11:19:59.798+0530	INFO	core/project.go:605	default idModel not required for entity session
+
+2023-05-15T11:19:59.798+0530	INFO	validate/access.go:34	Checking warehouse connectivity
+
+2023-05-15T11:20:00.880+0530	INFO	validate/access.go:57	Checking required schema access
+
+2023-05-15T11:20:01.904+0530	INFO	validate/access.go:72	Preparing registry setup
+
+2023-05-15T11:20:04.054+0530	INFO	validate/access.go:78	loading project
+
+2023-05-29T12:18:33.071+0530	ERROR	core/project.go:324	while trying to parse /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features/models/inputs.yaml: yaml: unmarshal errors:
+  line 15: field source_metadata not found in type wht.InputDeclSpec
+  line 28: field source_metadata not found in type wht.InputDeclSpec
+  line 47: field source_metadata not found in type wht.InputDeclSpec
+  line 61: field source_metadata not found in type wht.InputDeclSpec
+  line 75: field source_metadata not found in type wht.InputDeclSpec
+  line 86: field source_metadata not found in type wht.InputDeclSpec
+  line 96: field source_metadata not found in type wht.InputDeclSpec
+
+2023-05-29T12:18:33.071+0530	ERROR	core/project.go:246	populating from models folders for /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features: while trying to parse /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features/models/inputs.yaml: yaml: unmarshal errors:
+  line 15: field source_metadata not found in type wht.InputDeclSpec
+  line 28: field source_metadata not found in type wht.InputDeclSpec
+  line 47: field source_metadata not found in type wht.InputDeclSpec
+  line 61: field source_metadata not found in type wht.InputDeclSpec
+  line 75: field source_metadata not found in type wht.InputDeclSpec
+  line 86: field source_metadata not found in type wht.InputDeclSpec
+  line 96: field source_metadata not found in type wht.InputDeclSpec
+
+2023-05-29T12:18:33.071+0530	ERROR	validate/access.go:27	accessing project 
+Error: failed to read project yaml 
+Error: populating from models folders for /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features: while trying to parse /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features/models/inputs.yaml: yaml: unmarshal errors:
+  line 15: field source_metadata not found in type wht.InputDeclSpec
+  line 28: field source_metadata not found in type wht.InputDeclSpec
+  line 47: field source_metadata not found in type wht.InputDeclSpec
+  line 61: field source_metadata not found in type wht.InputDeclSpec
+  line 75: field source_metadata not found in type wht.InputDeclSpec
+  line 86: field source_metadata not found in type wht.InputDeclSpec
+  line 96: field source_metadata not found in type wht.InputDeclSpec
+
+2023-05-29T12:19:40.385+0530	INFO	migrate/migrate.go:99	Project is already at version 33
+
+2023-05-29T12:19:42.740+0530	ERROR	core/project.go:324	while trying to parse /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features/models/inputs.yaml: yaml: unmarshal errors:
+  line 15: field source_metadata not found in type wht.InputDeclSpec
+  line 28: field source_metadata not found in type wht.InputDeclSpec
+  line 47: field source_metadata not found in type wht.InputDeclSpec
+  line 61: field source_metadata not found in type wht.InputDeclSpec
+  line 75: field source_metadata not found in type wht.InputDeclSpec
+  line 86: field source_metadata not found in type wht.InputDeclSpec
+  line 96: field source_metadata not found in type wht.InputDeclSpec
+
+2023-05-29T12:19:42.741+0530	ERROR	core/project.go:246	populating from models folders for /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features: while trying to parse /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features/models/inputs.yaml: yaml: unmarshal errors:
+  line 15: field source_metadata not found in type wht.InputDeclSpec
+  line 28: field source_metadata not found in type wht.InputDeclSpec
+  line 47: field source_metadata not found in type wht.InputDeclSpec
+  line 61: field source_metadata not found in type wht.InputDeclSpec
+  line 75: field source_metadata not found in type wht.InputDeclSpec
+  line 86: field source_metadata not found in type wht.InputDeclSpec
+  line 96: field source_metadata not found in type wht.InputDeclSpec
+
+2023-05-29T12:19:42.741+0530	ERROR	validate/access.go:27	accessing project 
+Error: failed to read project yaml 
+Error: populating from models folders for /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features: while trying to parse /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features/models/inputs.yaml: yaml: unmarshal errors:
+  line 15: field source_metadata not found in type wht.InputDeclSpec
+  line 28: field source_metadata not found in type wht.InputDeclSpec
+  line 47: field source_metadata not found in type wht.InputDeclSpec
+  line 61: field source_metadata not found in type wht.InputDeclSpec
+  line 75: field source_metadata not found in type wht.InputDeclSpec
+  line 86: field source_metadata not found in type wht.InputDeclSpec
+  line 96: field source_metadata not found in type wht.InputDeclSpec
+
+2023-05-29T12:24:42.024+0530	INFO	core/project.go:645	default idModel not required for entity user
+
+2023-05-29T12:24:42.025+0530	INFO	core/project.go:645	default idModel not required for entity session
+
+2023-05-29T12:24:42.146+0530	INFO	validate/access.go:34	Checking warehouse connectivity
+
+2023-05-29T12:24:44.279+0530	INFO	validate/access.go:61	Checking required schema access
+
+2023-05-29T12:24:44.984+0530	INFO	validate/access.go:77	Preparing registry setup
+
+2023-05-29T12:24:49.251+0530	INFO	validate/access.go:83	Accessing context
+
+2023-05-29T12:24:54.287+0530	INFO	validate/access.go:90	Accessing all models
+
+2023-05-29T12:24:54.287+0530	INFO	validate/access.go:99	Checking required access for creating UDFs
+
+2023-05-29T12:24:54.287+0530	INFO	validate/access.go:110	Checking required access to inputs for models
+
+2023-05-29T12:28:23.905+0530	INFO	validate/access.go:119	All required access are available
+
+2023-05-29T12:28:23.907+0530	INFO	validate/access.go:120	Connection environment: dev have all the required read/right privileges
+

@@ -1,0 +1,18 @@
+ERROR	core/project.go:324	while trying to parse /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features/models/inputs.yaml: yaml: unmarshal errors:
+  line 15: field source_metadata not found in type wht.InputDeclSpec
+  line 28: field source_metadata not found in type wht.InputDeclSpec
+  line 47: field source_metadata not found in type wht.InputDeclSpec
+  line 61: field source_metadata not found in type wht.InputDeclSpec
+  line 75: field source_metadata not found in type wht.InputDeclSpec
+  line 86: field source_metadata not found in type wht.InputDeclSpec
+  line 96: field source_metadata not found in type wht.InputDeclSpec
+
+ERROR	core/project.go:246	populating from models folders for /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features: while trying to parse /Volumes/Workspace/rudderlabs/librs360-shopify-features/shopify-features/models/inputs.yaml: yaml: unmarshal errors:
+  line 15: field source_metadata not found in type wht.InputDeclSpec
+  line 28: field source_metadata not found in type wht.InputDeclSpec
+  line 47: field source_metadata not found in type wht.InputDeclSpec
+  line 61: field source_metadata not found in type wht.InputDeclSpec
+  line 75: field source_metadata not found in type wht.InputDeclSpec
+  line 86: field source_metadata not found in type wht.InputDeclSpec
+  line 96: field source_metadata not found in type wht.InputDeclSpec
+
