@@ -113,7 +113,7 @@ models:
             name: max_timestamp_order_created
             select: max(timestamp)
             from: inputs/rsOrderCreated
-          #days since last purchase
+            #days since last purchase
         - entity_var:
             name: days_since_last_purchase
             select: "{% if !(end_time|isnil) %} datediff(day, date(max_timestamp_order_created), date('{{end_time.Format(\"2006-01-02 15:04:05\")}}')){% else %} 1=1 {% endif %}"
@@ -122,7 +122,7 @@ models:
             name: min_timestamp_order_created
             select: min(timestamp)
             from: inputs/rsOrderCreated
-          #days since first purchase
+            #days since first purchase
         - entity_var:
             name: days_since_first_purchase
             select: "{% if !(end_time|isnil) %} datediff(day, date(min_timestamp_order_created), date('{{end_time.Format(\"2006-01-02 15:04:05\")}}')){% else %} 1=1 {% endif %}"

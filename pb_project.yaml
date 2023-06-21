@@ -35,4 +35,4 @@ include_untimed: true
 model_folders:
   - models
 name: shopify_features
-schema_version: 34
+schema_version: 37

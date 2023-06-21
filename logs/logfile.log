@@ -114,3 +114,5 @@ Error: populating from models folders for /Volumes/Workspace/rudderlabs/librs360
 
 2023-06-21T10:53:18.583+0530	INFO	migrate/migrate.go:159	Project migrated from version 33 to version 34
 
+2023-06-21T10:56:11.244+0530	INFO	migrate/migrate.go:159	Project migrated from version 34 to version 37
+
