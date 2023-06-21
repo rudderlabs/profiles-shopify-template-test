@@ -76,13 +76,6 @@ models:
           value: "{% if !(end_time|isnil) %} datediff(day, date({{column}}), date('{{end_time.Format(\"2006-01-02 15:04:05\")}}')) {% else %} datediff(day, date({{column}}), GETDATE()) {% endif %}"
       vars:
         - entity_var:
-            name: session_length
-            select: TIMESTAMPDIFF(SECOND, session_start_time, session_end_time)
-            dependencies:
-                - session_start_time
-                - session_end_time
-    
-        - entity_var:
             name: session_end_time
             select: max(timestamp)
             from: inputs/rsPages
@@ -91,6 +84,13 @@ models:
             name: session_start_time
             select: min(timestamp)
             from: inputs/rsPages
+
+        - entity_var:
+            name: session_length
+            select: TIMESTAMPDIFF(SECOND, session_start_time, session_end_time)
+            dependencies:
+                - session_start_time
+                - session_end_time
 
         - entity_var:
             name: max_timestamp_tracks
