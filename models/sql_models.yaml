@@ -104,7 +104,7 @@ models:
              b.financial_status as financial_status_order_cancelled,
              b.cart_token as cart_token_order_cancelled,
              b.timestamp as timestamp_order_cancelled,
-             b.products as products_order_cancelled
+             b.products as products_order_cancelled,
              c.fulfillment_status
          from {{OrderCreated}} a 
          left join {{OrderCancelled}} b on a.user_id = b.user_id and a.order_number = b.order_number
