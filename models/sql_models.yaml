@@ -96,7 +96,6 @@ models:
              a.order_number,
              a.timestamp,
              a.cart_token,
-             a.fulfillment_status,
              a.financial_status,
              b.anonymous_id as anonymous_id_order_cancelled,
              b.user_id as user_id_order_cancelled ,
