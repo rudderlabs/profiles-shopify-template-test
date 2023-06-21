@@ -524,7 +524,6 @@ models:
         - last_name
         - currency
         - campaign_sources
-        - is_active_on_website
         - active_days_in_past_7_days
         - active_days_in_past_365_days
         - total_sessions_till_date
