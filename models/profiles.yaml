@@ -283,11 +283,6 @@ models:
             where: currency is not null and currency!=''
 
         - entity_var:
-            name: campaign_sources
-            select: array_agg( context_campaign_source )
-            from: inputs/rsIdentifies
-
-        - entity_var:
             name: active_days_in_past_7_days
             select: count(distinct date(session_start_time))
             from: models/rsSessionTable
@@ -523,7 +518,6 @@ models:
         - first_name
         - last_name
         - currency
-        - campaign_sources
         - active_days_in_past_7_days
         - active_days_in_past_365_days
         - total_sessions_till_date
