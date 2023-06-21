@@ -6,9 +6,7 @@ models:
       materialization:
         output_type: ephemeral
         run_type: discrete
-      single_sql: "{% with CartCreate = this.DeRef(\"inputs/rsCartCreate\") CartUpdate = this.DeRef(\"inputs/rsCartUpdate\") %}
-          select anonymous_id,timestamp,token from {{CartCreate}}
-          union all 
+      single_sql: "{% with CartUpdate = this.DeRef(\"inputs/rsCartUpdate\") %}
           select anonymous_id,timestamp,token from {{CartUpdate}}
       {% endwith %}
       "
