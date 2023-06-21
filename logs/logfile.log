@@ -110,3 +110,7 @@ Error: populating from models folders for /Volumes/Workspace/rudderlabs/librs360
 
 2023-05-29T12:28:23.907+0530	INFO	validate/access.go:120	Connection environment: dev have all the required read/right privileges
 
+2023-06-21T10:53:15.988+0530	ERROR	migrate/migrate.go:130	destination can not be empty. Please specify a destination path
+
+2023-06-21T10:53:18.583+0530	INFO	migrate/migrate.go:159	Project migrated from version 33 to version 34
+
