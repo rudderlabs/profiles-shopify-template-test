@@ -274,6 +274,15 @@ models:
             where: last_name is not null and last_name!=''
 
         - entity_var:
+            name: email
+            from: inputs/rsIdentifies
+            select: first_value(email)
+            window:
+              order_by:
+              - timestamp desc
+            where: email is not null and email!=''
+
+        - entity_var:
             name: currency
             from: inputs/rsIdentifies
             select: first_value(currency)
@@ -516,6 +525,7 @@ models:
         - state
         - country
         - first_name
+        - email
         - last_name
         - currency
         - active_days_in_past_7_days
