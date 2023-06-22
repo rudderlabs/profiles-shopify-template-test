@@ -274,7 +274,7 @@ models:
             where: last_name is not null and last_name!=''
 
         - entity_var:
-            name: email
+            name: user_email
             from: inputs/rsIdentifies
             select: first_value(email)
             window:
@@ -525,7 +525,7 @@ models:
         - state
         - country
         - first_name
-        - email
+        - user_email
         - last_name
         - currency
         - active_days_in_past_7_days
